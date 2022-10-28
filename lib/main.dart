@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       initialRoute: 'basic_design',
       routes: {'basic_design': (_) => const BasicDesignScreen()},
-      // home: _TempHomeScreen(),
     );
   }
 }
