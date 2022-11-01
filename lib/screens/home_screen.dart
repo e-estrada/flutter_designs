@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_designs/widgets/background.dart';
+import 'package:flutter_designs/widgets/custom_navigation_bar.dart';
 import 'package:flutter_designs/widgets/page_title.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,11 +13,11 @@ class HomeScreen extends StatelessWidget {
         children: const [
           //Background
           Background(),
-
           //Home body
           _HomeBody()
         ],
       ),
+      bottomNavigationBar: const CustomNavigationBar(),
     );
   }
 }
